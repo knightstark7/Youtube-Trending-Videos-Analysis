@@ -26,50 +26,16 @@ The dataset used for this analysis is sourced from Kaggle and encompasses trendi
 
 ### We want to answer questions like:
 
-1. Views Analysis
-
-* What is the average view count of trending videos, and is there a wide variation in view counts among them?
-* Are trending videos more likely to have a significantly higher number of views compared to non-trending videos?
-* Does a video need a substantial number of views to qualify as a trending video?
-
-2. Likes and Comments Analysis
-
-* How do likes and comment counts vary among trending videos? Are most of them characterized by a large number of likes and comments?
-* Is there a correlation between the number of likes and comments on a video and its trending status?
-* Can a video with a high number of likes or comments be more likely to trend?
-
-3. Longest Time Trending
-
-* Among trending videos, which video remained on the trending list for the longest duration?
-* Is there a notable difference in the time duration that videos spend on the trending list?
-4. Capitalized Titles
-
-* How many trending videos have at least one fully-capitalized word in their titles?
-* Does having fully-capitalized words in a video's title impact its likelihood to trend?
-5. Title Length Analysis
-
-* What is the distribution of title lengths among trending videos, and is there any relationship between title length and trending status?
-* Can shorter or longer video titles be associated with a higher likelihood of trending?
-6. Correlations between Attributes
-
-* How are views, likes, dislikes, comment count, title length, and other video attributes interrelated? Are there strong correlations or dependencies between them?
-* Do certain attributes tend to increase or decrease together, indicating a pattern among trending videos?
-7. Common Words in Titles
-
-* What are the most frequently occurring words in the titles of trending videos?
-* Are there specific keywords or phrases that are commonly found in the titles of trending content?
-8. Top Trending Channels
-
-* Which YouTube channels have the largest number of videos that make it to the trending list?
-* Is there a particular set of channels that consistently produce trending content?
-9. Category Analysis
-
-* Among various video categories (e.g., Entertainment, Gaming, Comedy), which one has the highest representation in the trending videos?
-* Does the category of a video impact its chances of trending on YouTube?
-10. Publication Timing Analysis
-
-* When do trending videos tend to be published? Which days of the week and times of the day are most common for video publication?
-* Does the timing of video publication have any influence on its potential to become trending?
+* How many views do our trending videos have? Do most of them have a large number of views? Is having a large number of views required for a video to become trending?
+* The same questions above, but applied to likes and comment count instead of views.
+* Which video remained the most on the trendin-videos list?
+* How many trending videos contain a fully-capitalized word in their titles?
+* What are the lengths of trending video titles? Is this length related to the video becoming trendy?
+* How are views, likes, dislikes, comment count, title length, and other attributes correlate with (relate to) each other? How are they connected?
+* What are the most common words in trending video titles?
+* Which YouTube channels have the largest number of trending videos?
+* Which video category (e.g. Entertainment, Gaming, Comedy, etc.) has the largest number of trending videos?
+* When were trending videos published? On which days of the week? at which times of the day?
 
 # Libraries Used
 
